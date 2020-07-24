@@ -112,19 +112,13 @@ function validateForm(form) {
   $('#submit-form').on('click', function(e) {
     e.preventDefault();
 
-    if(true) { //validateForm($form)
+    if(validateForm($form)) {
       let jqxhr = $.ajax({
         url: url,
         method: "GET",
         dataType: "json",
         data: {...$form.serializeObject(), verified: verified}
       }).success(
-        // $thisParent.fadeOut(100, function(){
-        //   if ($thisParent.next('.content').length > 0) {
-        //     $thisParent.next('.content').fadeIn();
-        //   } else {
-        //     $('body').append('<span style="color:#000;">the test is finished : ) </span>')
-        //   }
         $('#inschrijf-formulier').fadeOut(100, function () {
           $('.subscribed-msg').css('display', 'flex');
           $('.subscribed-msg').css('opacity', '1');
