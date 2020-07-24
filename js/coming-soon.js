@@ -106,7 +106,7 @@ function validateForm(form) {
   })
 
 
-  let $form = $('form#test-form'),
+  let $form = $('#inschrijf-formulier'),
     url = 'https://script.google.com/macros/s/AKfycbzrx-tp1IULPbQTutAUjf0yRmJHw2iwuGcDsvEjxBSIj4NZ7WY/exec'
 
   $('#submit-form').on('click', function(e) {
