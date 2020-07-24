@@ -1,0 +1,47 @@
+// Font import
+
+@font-face {
+  font-family: 'Apex-New-Bold';
+  src: url('../fonts/Apex_New_Bold.otf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'Apex-New-Semi-Bold';
+  src: url('../fonts/Apex_New_Semi_Bold.otf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'Apex-New-Regular';
+  src: url('../fonts/Apex_New_Regular.otf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'Apex-New-Thin';
+  src: url('../fonts/Apex_New_Thin.otf'); /* IE9 Compat Modes */
+}
+
+
+// Mixins
+// Background Cover Mixin
+@mixin background-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+// Font Mixins
+@mixin body-font {
+  font-family: 'Apex-New-Regular', 'Titillium Web', sans-serif;
+  font-weight: 300;
+}
+@mixin heading-font {
+  font-family: 'Apex-New-Bold', 'Titillium Web', sans-serif;
+  font-weight: 700;
+}
+
+
+//$main-bold-font: 'Apex-New-Bold', 'Titillium Web', sans-serif;
+//$main-semi-bold-font: 'Apex-New-Semi-Bold', 'Titillium Web', sans-serif;
+//$main-regular-font: 'Apex-New-Regular', 'Titillium Web', sans-serif;
+//$main-thin-font: 'Apex-New-Thin', 'Titillium Web', sans-serif;

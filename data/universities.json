@@ -1,0 +1,2122 @@
+[
+  {
+    "onderwijsinstelling": "Amsterdam University",
+    "studie": "Actuarial Science and Mathematical Finance",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Aerospace engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Wageningen University",
+    "studie": "Agrotechnologie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Utrecht University",
+    "studie": "Applied Data Science",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Applied Mathematics",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Applied Mathematics",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Applied Mathematics",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Applied Physics",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Applied Physics",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Applied Physics",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Applied Physics",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Fontys Hogescholen",
+    "studie": "Applied Science",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Zuyd Hogeschool",
+    "studie": "Applied Science",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Architecture, Building and Planning",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Architecture, Urbanism and Building Sciences",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "VU Amsterdam",
+    "studie": "Artificial Intelligence",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "VU Amsterdam",
+    "studie": "Artificial Intelligence",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Radboud University",
+    "studie": "Artificial Intelligence",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Radboud University",
+    "studie": "Artificial Intelligence",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Amsterdam University",
+    "studie": "Artificial Intelligence",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Limburg University",
+    "studie": "Artificial Intelligence",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Utrecht University",
+    "studie": "Artificial Intelligence",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Artificial Intelligence",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Leiden University",
+    "studie": "Astronomy",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Astronomy",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "HAN University of Applied Sciences",
+    "studie": "Automotive",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Rotterdam",
+    "studie": "Automotive",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Fontys Hogescholen",
+    "studie": "Automotive",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Automotive Technology",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool van Amsterdam",
+    "studie": "Aviation",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "LOI Hogeschool",
+    "studie": "Bedrijfskundige Informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Leiden",
+    "studie": "Bio-informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "HAN University of Applied Sciences",
+    "studie": "Bio-informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hanzehogeschool Groningen",
+    "studie": "Bio-informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Maastricht University",
+    "studie": "Biobased Materials",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Wageningen University",
+    "studie": "Bioinformatics",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Biomedical Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Biomedical Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Biomedical Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Biomedical Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Biomedische Technologie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Biomedische Technologie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Biomedische Technologie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Biomolecular Sciences",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "VU Amsterdam",
+    "studie": "Biomolecular Sciences",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Wageningen University",
+    "studie": "Biosystems Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Inholland Hogeschool",
+    "studie": "Biotechnologie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Wageningen University",
+    "studie": "Biotechnologie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Stenden NHL",
+    "studie": "Biotechnologie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Wageningen University",
+    "studie": "Biotechnologie",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Bouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "HZ University of Applied Sciences",
+    "studie": "Bouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "HAN University of Applied Sciences",
+    "studie": "Bouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "NTI",
+    "studie": "Bouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Inholland Hogeschool",
+    "studie": "Bouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Windesheim",
+    "studie": "Bouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Stenden NHL",
+    "studie": "Bouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Saxion",
+    "studie": "Bouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool NCOI",
+    "studie": "Bouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Bouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Inholland Hogeschool",
+    "studie": "Bouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Avans Hogeschool",
+    "studie": "Bouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "De Haagse Hogeschool",
+    "studie": "Bouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Avans Hogeschool",
+    "studie": "Bouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Rotterdam",
+    "studie": "Bouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Amsterdam University",
+    "studie": "Brain and Cognitive Sciences",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Utrecht",
+    "studie": "Built Environment",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hanzehogeschool Groningen",
+    "studie": "Built Environment",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Zuyd Hogeschool",
+    "studie": "Built Environment",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Breda University of Applied Sciences",
+    "studie": "Built Environment",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool van Amsterdam",
+    "studie": "Built Environment",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "VU Amsterdam",
+    "studie": "Business Analytics",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Maastricht University",
+    "studie": "Business Analytics",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "VU Amsterdam",
+    "studie": "Business Analytics",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Maastricht University",
+    "studie": "Business Engineering",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Avans Hogeschool",
+    "studie": "Business IT & Management",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Inholland Hogeschool",
+    "studie": "Business IT & Management",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool NCOI",
+    "studie": "Business IT & Management",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Inholland Hogeschool",
+    "studie": "Business IT & Management",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Rotterdam",
+    "studie": "Business IT & Management",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Business Information Technology",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Business Information Technology",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Open Universiteit",
+    "studie": "Business Process Management and IT",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Chemical Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Chemical Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Chemical Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Chemical Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Avans Hogeschool",
+    "studie": "Chemie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Leiden",
+    "studie": "Chemie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Saxion",
+    "studie": "Chemie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Utrecht",
+    "studie": "Chemie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "HAN University of Applied Sciences",
+    "studie": "Chemie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Avans Hogeschool",
+    "studie": "Chemie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Saxion",
+    "studie": "Chemie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Stenden NHL",
+    "studie": "Chemie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Rotterdam",
+    "studie": "Chemie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "HZ University of Applied Sciences",
+    "studie": "Chemie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hanzehogeschool Groningen",
+    "studie": "Chemie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Inholland Hogeschool",
+    "studie": "Chemie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Saxion",
+    "studie": "Chemische Technologie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Rotterdam",
+    "studie": "Chemische Technologie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Utrecht",
+    "studie": "Chemische Technologie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "De Haagse Hogeschool",
+    "studie": "Chemische Technologie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Avans Hogeschool",
+    "studie": "Chemische Technologie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hanzehogeschool Groningen",
+    "studie": "Chemische Technologie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Stenden NHL",
+    "studie": "Chemische Technologie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Utrecht University",
+    "studie": "Chemische Wetenschappen",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Radboud University",
+    "studie": "Chemistry",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Leiden University",
+    "studie": "Chemistry",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Chemistry",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Amsterdam University",
+    "studie": "Chemistry",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "VU Amsterdam",
+    "studie": "Chemistry",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool NCOI",
+    "studie": "Civiele Techniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Saxion",
+    "studie": "Civiele Techniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Civiele Techniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "HAN University of Applied Sciences",
+    "studie": "Civiele Techniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "De Haagse Hogeschool",
+    "studie": "Civiele Techniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Avans Hogeschool",
+    "studie": "Civiele Techniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Stenden NHL",
+    "studie": "Civiele Techniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Inholland Hogeschool",
+    "studie": "Civiele Techniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Windesheim",
+    "studie": "Civiele Techniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Rotterdam",
+    "studie": "Civiele Techniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "HZ University of Applied Sciences",
+    "studie": "Civiele Techniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Avans Hogeschool",
+    "studie": "Civiele Techniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Civiele Techniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Civil Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Civil Engineering and Management",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Tilburg University",
+    "studie": "Cognitive Science and Artificial Intelligence",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Tilburg University",
+    "studie": "Cognitive Science and Artificial Intelligence",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Complex Systems Engineering and Management",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "VU Amsterdam",
+    "studie": "Computatuional Science",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Amsterdam University",
+    "studie": "Computatuional Science",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Computer Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Computer Science",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Leiden University",
+    "studie": "Computer Science",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "VU Amsterdam",
+    "studie": "Computer Science",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Computer Science",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Open Universiteit",
+    "studie": "Computer Science",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "VU Amsterdam",
+    "studie": "Computer Science",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Amsterdam University",
+    "studie": "Computer Science",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Computer Science and Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Computer Science",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Radboud University",
+    "studie": "Computer Science",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Radboud University",
+    "studie": "Computer Science",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Construction Management and Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Construction Management and Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Construction Management and Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Breda University of Applied Sciences",
+    "studie": "Creative Media and Game Technologies",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Rotterdam",
+    "studie": "Creative Media and Game Technologies",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Saxion",
+    "studie": "Creative Media and Game Technologies",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "HKU",
+    "studie": "Creative Media and Game Technologies",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Data Science",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Tilburg University",
+    "studie": "Data Science",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Data Science and Entrepeneurship",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Tilburg University",
+    "studie": "Data Science and Entrepeneurship",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Maastricht University",
+    "studie": "Data Science and Knowledge Engineering",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Tilburg University",
+    "studie": "Data Science and Society",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Limburg University",
+    "studie": "Data Science for Decision Making",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Design for Interaction",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Maastricht University",
+    "studie": "Digital Society",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Amsterdam University",
+    "studie": "Econometrie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Erasmus Universiteit Rotterdam",
+    "studie": "Econometrie en Operationele Research",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Maastricht University",
+    "studie": "Econometrie en Operationele Research",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Econometrie en Operationele Research",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "VU Amsterdam",
+    "studie": "Econometrie en Operationele Research",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Tilburg University",
+    "studie": "Econometrie en Operationele Research",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Amsterdam University",
+    "studie": "Econometrics",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Erasmus Universiteit Rotterdam",
+    "studie": "Econometrics and Management Science",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Tilburg University",
+    "studie": "Econometrics and Mathematical Economics",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Maastricht University",
+    "studie": "Econometrics and Operations Research",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "VU Amsterdam",
+    "studie": "Econometrics and Operations Research",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Econometrics, Operations Research and Actuarial Studies",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Electrical Engineering",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Electrical Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Electrical Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Electrical Engineering",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Electrical Engineering",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Electrical Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Saxion",
+    "studie": "Elektrotechniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "HAN University of Applied Sciences",
+    "studie": "Elektrotechniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Avans Hogeschool",
+    "studie": "Elektrotechniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Inholland Hogeschool",
+    "studie": "Elektrotechniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Utrecht",
+    "studie": "Elektrotechniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Stenden NHL",
+    "studie": "Elektrotechniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "De Haagse Hogeschool",
+    "studie": "Elektrotechniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool NCOI",
+    "studie": "Elektrotechniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Avans Hogeschool",
+    "studie": "Elektrotechniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hanzehogeschool Groningen",
+    "studie": "Elektrotechniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Windesheim",
+    "studie": "Elektrotechniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Fontys Hogescholen",
+    "studie": "Elektrotechniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Rotterdam",
+    "studie": "Elektrotechniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hanzehogeschool Groningen",
+    "studie": "Elektrotechniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Embedded Systems",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Embedded Systems",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Embedded Systems",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Amsterdam University",
+    "studie": "Engineering",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Windesheim",
+    "studie": "Engineering",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "HZ University of Applied Sciences",
+    "studie": "Engineering",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Zuyd Hogeschool",
+    "studie": "Engineering",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Engineering and Policy Analysis",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Environmental and Energy Management",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "European Post-master in Urbanism",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "TIAS School for Business and Society",
+    "studie": "Executive Master of IT-Auditing",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Wageningen University",
+    "studie": "Food Technology",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Amsterdam University",
+    "studie": "Forensic Science",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Saxion",
+    "studie": "Forensisch Onderzoek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Amsterdam University",
+    "studie": "Forensisch Onderzoek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "De Haagse Hogeschool",
+    "studie": "HBO-ICT",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "HAN University of Applied Sciences",
+    "studie": "HBO-ICT",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Zuyd Hogeschool",
+    "studie": "HBO-ICT",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Windesheim",
+    "studie": "HBO-ICT",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Fontys Hogescholen",
+    "studie": "HBO-ICT",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Christelijke Hogeschool Ede",
+    "studie": "HBO-ICT",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Saxion",
+    "studie": "HBO-ICT",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool van Amsterdam",
+    "studie": "HBO-ICT",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hanzehogeschool Groningen",
+    "studie": "HBO-ICT",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "HZ University of Applied Sciences",
+    "studie": "HBO-ICT",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Stenden NHL",
+    "studie": "HBO-ICT",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Utrecht",
+    "studie": "HBO-ICT",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Human-Machine Communication",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Human-technology interaction",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Leiden University",
+    "studie": "ICT in Business and the Public Sector",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Industrial Design",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Industrial Design",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Industrial Design Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Industrial and Applied Mathematics",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Industrieel Ontwerpen",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Industrieel Ontwerpen",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Rotterdam",
+    "studie": "Industrieel Product Ontwerpen",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Fontys Hogescholen",
+    "studie": "Industrieel Product Ontwerpen",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "HAN University of Applied Sciences",
+    "studie": "Industrieel Product Ontwerpen",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Saxion",
+    "studie": "Industrieel Product Ontwerpen",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "De Haagse Hogeschool",
+    "studie": "Industrieel Product Ontwerpen",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Windesheim",
+    "studie": "Industrieel Product Ontwerpen",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hanzehogeschool Groningen",
+    "studie": "Industrieel Product Ontwerpen",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Leiden University",
+    "studie": "Informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Utrecht University",
+    "studie": "Informatica",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Stenden NHL",
+    "studie": "Informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Amsterdam University",
+    "studie": "Informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Utrecht University",
+    "studie": "Informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Avans Hogeschool",
+    "studie": "Informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Open Universiteit",
+    "studie": "Informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool NCOI",
+    "studie": "Informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Inholland Hogeschool",
+    "studie": "Informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Rotterdam",
+    "studie": "Informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "LOI Hogeschool",
+    "studie": "Informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Fontys Hogescholen",
+    "studie": "Informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Leiden",
+    "studie": "Informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Avans Hogeschool",
+    "studie": "Informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool NOVI",
+    "studie": "Informatie en Communicatie Technologie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Open Universiteit",
+    "studie": "Informatiekunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Informatiekunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Amsterdam University",
+    "studie": "Informatiekunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Utrecht University",
+    "studie": "Informatiekunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Utrecht University",
+    "studie": "Information Science",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "VU Amsterdam",
+    "studie": "Information Science",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Radboud University",
+    "studie": "Information Science",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Amsterdam University",
+    "studie": "Information Science",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Innovation Sciences",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Integrated Product Design",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Interaction Technology",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Amsterdam University",
+    "studie": "Kunstmatige Intelligentie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Utrecht University",
+    "studie": "Kunstmatige Intelligentie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Kunstmatige Intelligentie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Leiden University",
+    "studie": "Life Science and Technology",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Life Science and Technology",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Life Science and Technology",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Leiden University",
+    "studie": "Life Science and Technology",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Life Science and Technology",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Breda University of Applied Sciences",
+    "studie": "Logistics Engineering",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool van Amsterdam",
+    "studie": "Logistics Engineering",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Fontys Hogescholen",
+    "studie": "Logistics Engineering",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Windesheim",
+    "studie": "Logistics Engineering",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Rotterdam",
+    "studie": "Logistics Engineering",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "HZ University of Applied Sciences",
+    "studie": "Logistics Engineering",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Lunchtvaart- en Ruimtevaarttechniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Inholland Hogeschool",
+    "studie": "Luchtvaarttechnologie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Management of Technology",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Marine Technology",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "HZ University of Applied Sciences",
+    "studie": "Maritiem Officier",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Rotterdam",
+    "studie": "Maritiem Officier",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Stenden NHL",
+    "studie": "Maritiem Officier",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool van Amsterdam",
+    "studie": "Maritiem Officier",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Rotterdam",
+    "studie": "Maritieme Techniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Maritieme Techniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Stenden NHL",
+    "studie": "Maritieme Techniek",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Maritime & Logistics University of Applied Sciences",
+    "studie": "Maritieme Techniek / Scheepsbouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Erasmus Universiteit Rotterdam",
+    "studie": "Master City Developer",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Leiden University",
+    "studie": "Master Statistical Science for the Life and Behavioural Sciences",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Materials Science and Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Radboud University",
+    "studie": "Mathematics",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "VU Amsterdam",
+    "studie": "Mathematics",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "VU Amsterdam",
+    "studie": "Mathematics",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Amsterdam University",
+    "studie": "Mathematics",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Leiden University",
+    "studie": "Mathematics",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Mathematics",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Utrecht University",
+    "studie": "Mathematische Wetenschappen",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Mechanical Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Mechanical Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Mechanical Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Mechanical Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Fontys Hogescholen",
+    "studie": "Mechatronica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Avans Hogeschool",
+    "studie": "Mechatronica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "De Haagse Hogeschool",
+    "studie": "Mechatronica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Saxion",
+    "studie": "Mechatronica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Leiden University",
+    "studie": "Media Technology",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Medical Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Amsterdam University",
+    "studie": "Medische Informatiekunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Wageningen University",
+    "studie": "Moleculaire Levenswetenschappen",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Radboud University",
+    "studie": "Molecular Life Sciences",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Wageningen University",
+    "studie": "Molecular Life Sciences",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Radboud University",
+    "studie": "Molecular Mechanisms of Disease",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Leiden University",
+    "studie": "Molecular Science and Technology",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Molecular Science and Technology",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Radboud University",
+    "studie": "Molecular Sciences",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Nanoscience",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Nanotechnology",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Utrecht University",
+    "studie": "Natuur- en Sterrenkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Radboud University",
+    "studie": "Natuur- en Sterrenkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Amsterdam University",
+    "studie": "Natuur- en Sterrenkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "VU Amsterdam",
+    "studie": "Natuur- en Sterrenkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Leiden University",
+    "studie": "Natuurkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Natuurkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Utrecht University",
+    "studie": "Natuurwetenschap en Innovatiemanagement",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Utrecht University",
+    "studie": "Natuurwetenschappen en Bedrijf",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Stenden NHL",
+    "studie": "Ocean Technology",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Offshore and Dredging Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "VU Amsterdam",
+    "studie": "Parallel and Distributed Computer Systems",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Utrecht University",
+    "studie": "Physics",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Physics",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Leiden University",
+    "studie": "Physics",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Radboud University",
+    "studie": "Physics and Astronomy",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "VU Amsterdam",
+    "studie": "Physics and Astronomy",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Amsterdam University",
+    "studie": "Physics and Astronomy",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Psychology & Technology",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Stenden NHL",
+    "studie": "Ruimtelijke Ontwikkeling",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "De Haagse Hogeschool",
+    "studie": "Ruimtelijke Ontwikkeling",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Inholland Hogeschool",
+    "studie": "Ruimtelijke Ontwikkeling",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Rotterdam",
+    "studie": "Ruimtelijke Ontwikkeling",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Windesheim",
+    "studie": "Ruimtelijke Ontwikkeling",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Avans Hogeschool",
+    "studie": "Ruimtelijke Ontwikkeling",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Saxion",
+    "studie": "Ruimtelijke Ontwikkeling",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Scheikunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Utrecht University",
+    "studie": "Scheikunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "VU Amsterdam",
+    "studie": "Scheikunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Amsterdam University",
+    "studie": "Scheikunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Scheikundige Technologie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Scheikundige Technologie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Scheikundige Technologie",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Radboud University",
+    "studie": "Science",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Utrecht University",
+    "studie": "Science and Innovation",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Science and Technology of Nuclear Fusion",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "VU Amsterdam",
+    "studie": "Science, Business & Innovation",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "VU Amsterdam",
+    "studie": "Science, Business & Innovation",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Amsterdam University",
+    "studie": "Security and Network Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Avans Hogeschool",
+    "studie": "Software Engineer",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Amsterdam University",
+    "studie": "Software Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Open Universiteit",
+    "studie": "Software Engineering",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Sterrenkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Leiden University",
+    "studie": "Sterrenkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Amsterdam University",
+    "studie": "Stochastic and Financial Mathematics",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Strategic Product Design",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Sustainable Energy Technology",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Sustainable Energy Technology",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Sustainable Energy Technology",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Systems and Control",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Systems and Control",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Systems and Control",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Technical Computer Science",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Technische Bestuurskunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Saxion",
+    "studie": "Technische Informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Technische Informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Inholland Hogeschool",
+    "studie": "Technische Informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "LOI Hogeschool",
+    "studie": "Technische Informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Technische Informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Avans Hogeschool",
+    "studie": "Technische Informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Rotterdam",
+    "studie": "Technische Informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Dirksen",
+    "studie": "Technische Informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Stenden NHL",
+    "studie": "Technische Informatica",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Technische Innovatiewetenschappen",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Technische Natuurkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Fontys Hogescholen",
+    "studie": "Technische Natuurkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Technische Natuurkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Technische Natuurkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Saxion",
+    "studie": "Technische Natuurkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Technische Natuurkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "De Haagse Hogeschool",
+    "studie": "Technische Natuurkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Technische Wiskunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Technische Wiskunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Technische Wiskunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Technology and Operations Management",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "The Berlage Post-master in Architecture and Urban Design",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Fontys Hogescholen",
+    "studie": "Toegepaste Wiskunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "De Haagse Hogeschool",
+    "studie": "Toegepaste Wiskunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Stenden NHL",
+    "studie": "Toegepaste Wiskunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Inholland Hogeschool",
+    "studie": "Toegepaste Wiskunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool van Amsterdam",
+    "studie": "Toegepaste Wiskunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Erasmus Universiteit Rotterdam",
+    "studie": "Urban Management and Development",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Water Technology",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Wageningen University",
+    "studie": "Water Technology",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Water Technology",
+    "type": "master"
+  },
+  {
+    "onderwijsinstelling": "Stenden NHL",
+    "studie": "Werktuigbouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool NCOI",
+    "studie": "Werktuigbouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Inholland Hogeschool",
+    "studie": "Werktuigbouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Avans Hogeschool",
+    "studie": "Werktuigbouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "HAN University of Applied Sciences",
+    "studie": "Werktuigbouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hanzehogeschool Groningen",
+    "studie": "Werktuigbouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "De Haagse Hogeschool",
+    "studie": "Werktuigbouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Werktuigbouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Fontys Hogescholen",
+    "studie": "Werktuigbouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Eindhoven TU",
+    "studie": "Werktuigbouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Twente University",
+    "studie": "Werktuigbouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Rotterdam",
+    "studie": "Werktuigbouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Windesheim",
+    "studie": "Werktuigbouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Hogeschool Utrecht",
+    "studie": "Werktuigbouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Saxion",
+    "studie": "Werktuigbouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Delft TU",
+    "studie": "Werktuigbouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Stenden NHL",
+    "studie": "Werktuigbouwkunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Radboud University",
+    "studie": "Wiskunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Amsterdam University",
+    "studie": "Wiskunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Utrecht University",
+    "studie": "Wiskunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Groningen University",
+    "studie": "Wiskunde",
+    "type": "bachelor"
+  },
+  {
+    "onderwijsinstelling": "Leiden University",
+    "studie": "Wiskunde",
+    "type": "bachelor"
+  }
+]

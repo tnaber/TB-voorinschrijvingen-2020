@@ -1,0 +1,14 @@
+.btn-secondary {
+  background-color: $tertiary;
+  border-color: $tertiary;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: darken($tertiary, 10%) !important;
+    border-color: darken($tertiary, 10%) !important;
+  }
+}
+
+.input {
+  font-weight: 300 !important;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Voorinschrijvingen Techniek Bedrijven</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i"
+        rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/coming-soon.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="overlay"></div>
+<div class="masthead">
+<!--  <div class="masthead-bg">-->
+<!--    <div class="form-bg-container">-->
+<!--      <div class="form-bg"></div>-->
+<!--    </div>-->
+<!--  </div>-->
+  <div class="container h-100">
+    <img src="./img/tb_logo.png" class="logo" alt=""/>
+    <div class="row h-100">
+      <div class="my-auto">
+        <div class="masthead-content">
+          <div class="content-container intro-text">
+            <h1 class="mb-3">Voorinschrijvingen</h1>
+            <p class="mb-5">We zijn nu bezig met het ontwikkelen van een nieuw platform dus je kan je nog niet inschrijven
+              voor het evenement van dit jaar, zodra dit platform live is zullen we je een herinnering sturen om je
+              inschrijving af te ronden.</p>
+          </div>
+
+          <form id="inschrijf-formulier" class="form col-12" id="test-form">
+
+            <div class="content-container form-input-fields">
+
+              <div class="form-input-field">
+                <label class="input-field-label">Naam</label>
+                <input type="text" name="naam" placeholder="Naam" class="form-control col-5"/>
+                <div class="disclaimer" id="naam-disclaimer"></div>
+              </div>
+
+              <div class="form-input-field">
+                <label class="input-field-label">Email</label>
+                <input type="text" name="email" placeholder="Email" class="form-control col-5"/>
+                <div class="disclaimer" id="email-disclaimer"></div>
+              </div>
+
+              <div class="form-input-field">
+                <label class="input-field-label">Telefoonnummer</label>
+                <input type="text" name="telefoonnummer" placeholder="Telefoonnummer" class="form-control col-5"/>
+                <div class="disclaimer" id="telefoonnummer-disclaimer"></div>
+              </div>
+
+              <div class="form-input-field">
+                <label class="input-field-label">Onderwijsinstelling</label>
+                <input id="university-input" name="onderwijsinstelling" list="university-list"
+                       placeholder="Onderwijsinstelling" class="form-control col-5">
+                <datalist id="university-list">
+                </datalist>
+                <div class="disclaimer" id="onderwijsinstelling-disclaimer"></div>
+              </div>
+
+
+              <div class="form-input-field">
+                <label class="input-field-label">Studie</label>
+                <input disabled id="studie-input" name="studie" list="study-list" placeholder="Studie" class="form-control col-5">
+                <datalist id="study-list">
+                </datalist>
+                <div class="disclaimer" id="studie-disclaimer"></div>
+              </div>
+
+              <div class="form-input-field">
+                <label class="input-field-label">Type</label>
+                <select disabled name="type" id="studie-type" class="form-control col-5">
+                  <option value="master">Master</option>
+                  <option value="bachelor">Bachelor</option>
+                </select>
+
+                <div class="disclaimer" id="type-disclaimer"></div>
+
+              </div>
+
+              <div class="form-input-field">
+                <input type="checkbox" name="toestemming" placeholder="Toestemming" />
+                <label>Bij deze geef ik toestemming aan Techniek Bedrijven om </label>
+                <div class="disclaimer" id="toestemming-disclaimer"></div>
+              </div>
+            </div>
+
+
+            <div class="button-container input-group input-group-newsletter">
+              <button class="btn btn-secondary" type="submit" id="submit-form">Houd me op de hoogte!</button>
+            </div>
+          </form>
+          <div class="subscribed-msg">
+            <p>
+              Bedankt voor het inschrijven, je hoort van ons!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="social-icons">
+  <ul class="list-unstyled text-center mb-0">
+    <li class="list-unstyled-item">
+      <a href="https://www.linkedin.com/company/stichting-techniek-bedrijven/">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li class="list-unstyled-item">
+      <a href="https://www.facebook.com/techniekbedrijven">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li class="list-unstyled-item">
+      <a href="https://www.instagram.com/techniekbedrijven/">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- Bootstrap corvare JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/coming-soon.min.js"></script>
+
+</body>
+
+</html>
