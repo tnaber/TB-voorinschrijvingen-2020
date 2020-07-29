@@ -8,7 +8,9 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Voorinschrijvingen Techniek Bedrijven</title>
+  <title>Inschrijvingen Techniek Bedrijven</title>
+
+  <link rel="icon" href="./img/favicon.png">
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,97 +30,113 @@
 
 <body>
 
-<div class="overlay"></div>
+<div class="bg-image"></div>
+<img src="./img/tb_logo.png" class="logo" alt=""/>
 <div class="masthead">
-<!--  <div class="masthead-bg">-->
-<!--    <div class="form-bg-container">-->
-<!--      <div class="form-bg"></div>-->
-<!--    </div>-->
-<!--  </div>-->
-  <div class="container h-100">
-    <img src="./img/tb_logo.png" class="logo" alt=""/>
-    <div class="row h-100">
-      <div class="my-auto">
-        <div class="masthead-content">
-          <div class="content-container intro-text">
-            <h1 class="mb-3">Voorinschrijvingen</h1>
-            <p class="mb-5">We zijn nu bezig met het ontwikkelen van een nieuw platform dus je kan je nog niet inschrijven
-              voor het evenement van dit jaar, zodra dit platform live is zullen we je een herinnering sturen om je
-              inschrijving af te ronden.</p>
+  <!--      <h1 class="mb-3">Inschrijven</h1>-->
+  <div class="masthead-content">
+    <div class="content-block text-block">
+      <h1>Techniek Bedrijven Evenement 2020</h1>
+      <p class="mb-5">Ben jij een bèta/technische bachelor of masterstudent? Wil jij jouw carrière een kickstart
+        geven en met te gekke technische top bedrijven in aanraking komen? Kom dan naar het Techniek Bedrijven
+        Evenement op vrijdag 13 november 2020 in het WTC in Rotterdam! Het Techniek Bedrijven Evenement is hét
+        landelijke carrière evenement dat staat voor kwaliteit en persoonlijk contact tussen student en bedrijf.
+        <br/>
+        Je zal op de dag te maken krijgen met een casestudy en interessante interactieve bedrijfspresentaties.
+        Daarnaast zal je op de bedrijvenbeurs tijdens de lunch en de borrel nog meer persoonlijk contact kunnen
+        leggen met alle technische top bedrijven!
+        <br/>
+        Via onderstaand invoerveld kan je je nu al inschrijven voor het evenement. Let op: de originele website is
+        momenteel onderhevig aan onderhoud. Daarom zal je op een later moment je profiel compleet moeten maken om
+        jouw inschrijving te voltooien. Hier zullen wij jou over berichten! Begin november zal je horen of je
+        geselecteerd bent met gematchte bedrijven aan jouw profiel.
+        <br/>
+        <span class="cursive">Dit jaar zal er wegens COVID-19 plek zijn voor minder studenten en bedrijven dan andere jaren. Hierdoor zullen er meer studenten worden teleurgesteld door middel van onze matching engine. Het evenement zal opgezet zijn volgens de richtlijnen van het RIVM, waaronder 1.5 m afstand opstellingen. </span>
+        <br/>
+      </p>
+    </div>
+
+    <div class="content-block form-block">
+      <h1>Schrijf je in!</h1>
+
+      <form id="inschrijf-formulier" class="form col-12">
+
+        <div class="form-input-fields">
+
+          <div class="form-input-field">
+            <label class="input-field-label">Naam</label>
+            <input type="text" name="naam" placeholder="Naam" class="form-control col-6"/>
+            <div class="disclaimer" id="naam-disclaimer"></div>
           </div>
 
-          <form id="inschrijf-formulier" class="form col-12" >
+          <div class="form-input-field">
+            <label class="input-field-label">Email (van onderwijsinstelling)</label>
+            <input type="text" name="email" placeholder="Email" class="form-control col-6"/>
+            <div class="disclaimer" id="email-disclaimer"></div>
+          </div>
 
-            <div class="content-container form-input-fields">
+          <div class="form-input-field">
+            <label class="input-field-label">Telefoonnummer</label>
+            <input type="text" name="telefoonnummer" placeholder="Telefoonnummer" class="form-control col-6"/>
+            <div class="disclaimer" id="telefoonnummer-disclaimer"></div>
+          </div>
 
-              <div class="form-input-field">
-                <label class="input-field-label">Naam</label>
-                <input type="text" name="naam" placeholder="Naam" class="form-control col-5"/>
-                <div class="disclaimer" id="naam-disclaimer"></div>
-              </div>
-
-              <div class="form-input-field">
-                <label class="input-field-label">Email</label>
-                <input type="text" name="email" placeholder="Email" class="form-control col-5"/>
-                <div class="disclaimer" id="email-disclaimer"></div>
-              </div>
-
-              <div class="form-input-field">
-                <label class="input-field-label">Telefoonnummer</label>
-                <input type="text" name="telefoonnummer" placeholder="Telefoonnummer" class="form-control col-5"/>
-                <div class="disclaimer" id="telefoonnummer-disclaimer"></div>
-              </div>
-
-              <div class="form-input-field">
-                <label class="input-field-label">Onderwijsinstelling</label>
-                <input id="university-input" name="onderwijsinstelling" list="university-list"
-                       placeholder="Onderwijsinstelling" class="form-control col-5">
-                <datalist id="university-list">
-                </datalist>
-                <div class="disclaimer" id="onderwijsinstelling-disclaimer"></div>
-              </div>
+          <div class="form-input-field">
+            <label class="input-field-label">Onderwijsinstelling</label>
+            <input id="university-input" name="onderwijsinstelling" list="university-list"
+                   placeholder="Onderwijsinstelling" class="form-control col-6">
+            <datalist id="university-list">
+            </datalist>
+            <div class="disclaimer" id="onderwijsinstelling-disclaimer"></div>
+          </div>
 
 
-              <div class="form-input-field">
-                <label class="input-field-label">Studie</label>
-                <input disabled id="studie-input" name="studie" list="study-list" placeholder="Studie" class="form-control col-5">
-                <datalist id="study-list">
-                </datalist>
-                <div class="disclaimer" id="studie-disclaimer"></div>
-              </div>
+          <div class="form-input-field">
+            <label class="input-field-label">Studie</label>
+            <input disabled id="studie-input" name="studie" list="study-list" placeholder="Studie"
+                   class="form-control col-6">
+            <datalist id="study-list">
+            </datalist>
+            <div class="disclaimer" id="studie-disclaimer"></div>
+          </div>
 
-              <div class="form-input-field">
-                <label class="input-field-label">Type</label>
-                <select disabled name="type" id="studie-type" class="form-control col-5">
-                  <option value="master">Master</option>
-                  <option value="bachelor">Bachelor</option>
-                </select>
+          <div class="form-input-field">
+            <label class="input-field-label">Type</label>
+            <select disabled name="type" id="studie-type" class="form-control col-6">
+              <option value="master">Master</option>
+              <option value="bachelor">Bachelor</option>
+            </select>
 
-                <div class="disclaimer" id="type-disclaimer"></div>
+            <div class="disclaimer" id="type-disclaimer"></div>
 
-              </div>
+          </div>
 
-              <div class="form-input-field">
-                <input type="checkbox" name="toestemming" placeholder="Toestemming" />
-                <label>Bij deze geef ik toestemming aan Techniek Bedrijven om </label>
-                <div class="disclaimer" id="toestemming-disclaimer"></div>
-              </div>
-            </div>
-
-
-            <div class="button-container input-group input-group-newsletter">
-              <button class="btn btn-secondary" type="submit" id="submit-form">Houd me op de hoogte!</button>
-            </div>
-          </form>
-          <div class="subscribed-msg">
-            <p>
-              Bedankt voor het inschrijven, je hoort van ons!
-            </p>
+          <div class="form-input-field checkbox-input-field">
+            <label>
+            <input type="checkbox" name="toestemming" placeholder="Toestemming"/>
+              Hiermee ga ik akkoord met de verwerking van bovenstaande gegevens en geef ik toestemming om later
+              benaderd te mogen worden om mijn profiel te voltooien door Stichting Techniek Bedrijven.</p>
+            </label>
+            <div class="disclaimer" id="toestemming-disclaimer"></div>
           </div>
         </div>
-      </div>
+
+
+        <div class="button-container input-group input-group-newsletter">
+          <button class="btn btn-secondary" type="submit" id="submit-form">Inschrijven!</button>
+          <div class="contact-info">Bij vragen mail <a href="mailto: info@techniekbedrijven.nl">info@techniekbedrijven.nl</a>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="subscribed-msg">
+      <p>
+        Bedankt voor het inschrijven, je hoort van ons!
+      </p>
     </div>
   </div>
+</div>
 </div>
 
 <div class="social-icons">

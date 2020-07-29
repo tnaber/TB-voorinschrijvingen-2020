@@ -43,17 +43,31 @@ h6 {
 //}
 
 body {
-  background: url('../img/thumbnail_image.png') no-repeat center center scroll;
-  background-size: cover;
-}
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: $secondary;
-  opacity: 0;
-  z-index: 1;
+  overflow-x: hidden;
+  @media (min-width: 1420px) {
+    overflow: hidden;
+
+    .bg-image {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      z-index: 1;
+      //background: url('../img/thumbnail_image.png') no-repeat center center scroll;
+
+      background-image: linear-gradient(rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)), url("../img/thumbnail_image.png"); // no-repeat center center scroll;
+      //background-color: black;
+      background-size: cover;
+      transform: scale(1.1);
+      filter: blur(8px);
+    }
+
+  }
+
+  .bg-image {
+    background-color: $primary;
+  }
+
+
 }

@@ -1,61 +1,23 @@
+.logo {
+  position: absolute;
+  height: 50px;
+  right: 0;
+  margin: 20px;
+}
+
 .masthead {
   position: relative;
-  overflow: hidden;
-  padding-bottom: 3rem;
+  overflow-x: hidden;
   z-index: 2;
 
-  background-color: $primary;
-
-  .logo {
-    position: absolute;
-    height: 50px;
-    right: 0;
-    margin: 20px;
+  .cursive {
+    font-style: italic;
   }
 
-  .masthead-bg {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    min-height: 35rem;
-    background-color: fade-out($primary, 0);
-    transform-origin: bottom right;
-    opacity: 1;
-
-    .form-bg-container {
-      position: relative;
-      height: 100%;
-      width: 100%;
-      .form-bg {
-        position: absolute;
-
-        right: 0;
-        left: 0;
-        width: 100%;
-        background-color: fade-out($secondary, 0);
-        //transform: skewX(-190deg);
-        transform-origin: bottom right;
-
-        @media (max-width: 768px) {
-          height: 420px;
-          bottom: 150px;
-        }
-
-        @media (min-width: 768px) {
-          height: 400px;
-          top: calc(150px + 35%);
-          //bottom: 190px;
-          //bottom: 33vh;
-        }
-      }
-    }
-
-  }
   .masthead-content {
+    display: flex;
+    flex-direction: column;
+
     h1 {
       font-size: 1.8rem;
       color: $tertiary;
@@ -68,17 +30,36 @@
       }
     }
 
-    .content-container {
-      padding: 25% 10% 0 10%;
-      @media (min-width: 768px) {
-        padding: 0px 30px 0px 30px;
+    .content-block {
+      &.form-block {
+        h1 {
+          @media (max-width: 1420px) {
+            display: none;
+          }
+        }
       }
 
+      &.text-block {
+        @media (min-width: 1420px) {
+          padding: 5%;
+        }
 
-    }
+        @media (min-width: 722px ) and (max-width: 1420px) {
+          padding: 10% 10% 0 10%;
+        }
+        padding: 25% 10% 0 10%;
 
-    .intro-text {
+        br {
+          margin-bottom: 8px;
+        }
+        h1 {
+        }
 
+      }
+
+      //@media (min-width: 1420px) {
+      //  padding: 0px 30px 0px 30px;
+      //}
     }
 
     .subscribed-msg {
@@ -103,6 +84,12 @@
 
       .form-input-field {
         margin: 5px;
+
+        &.checkbox-input-field {
+          input {
+            margin-right: 10px;
+          }
+        }
       }
 
       .form-input-fields {
@@ -111,7 +98,7 @@
         display: flex;
         flex-direction: column;
 
-        @media (min-width: 768px) {
+        @media (min-width: 1420px) {
           padding: 20px 25px 20px 75px;
         }
       }
@@ -126,21 +113,30 @@
         display: inline-block;
         float: left;
         clear: left;
-        width: 200px;
+        width: 225px;
         text-align: left;
       }
 
       .button-container {
         padding: 50px 50px 30px 30px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: flex-end;
+        align-items: flex-end;
         .btn {
+          width: 150px;
+          float: right;
           right: 0;
+          margin: 8px;
+        }
+
+        .contact-info {
+          margin: 8px;
+          color: $tertiary;
         }
       }
 
-      @media (max-width: 410px) {
+      @media (max-width: 580px) {
         .input-field-label {
           width: 150px;
         }
@@ -164,12 +160,11 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1420px) {
   .masthead {
     margin: 0;
     height: 100%;
     min-height: 900px;
-    width: 40rem;
     padding-bottom: 0;
 
     .logo {
@@ -178,18 +173,51 @@
       margin: 15px 30px 30px 30px;
     }
 
+    .content-block {
+      &.form-block {
+        min-width: 600px;
+        background-color: $primary;
+        height: 100vh;
+
+        h1 {
+          margin: 40px;
+          display: block;
+        }
+
+      }
+
+      &.text-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        //padding: 5%;
+
+        h1 {
+          margin-bottom: 20px;
+          color: $primary;
+        }
+
+        br {
+          margin-bottom: 20px;
+        }
+      }
+    }
+
     .masthead-bg {
       min-height: 0;
       transform: skewX(-8deg);
       transform-origin: top right;
     }
     .masthead-content {
+      flex-direction: row;
+
       max-height: 900px;
       h1 {
         font-size: 3rem;
       }
       p {
         font-size: 1.3rem;
+        color: $primary
       }
     }
   }

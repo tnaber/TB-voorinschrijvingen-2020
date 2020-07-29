@@ -29,6 +29,15 @@ function validateForm(form) {
   let valid = true
   let data = form.serializeObject()
 
+  // Clear original fields
+  $('#naam-disclaimer').text("")
+  $('#email-disclaimer').text("")
+  $('#telefoonnummer-disclaimer').text("")
+  $('#onderwijsinstelling-disclaimer').text("")
+  $('#studie-disclaimer').text("")
+  $('#toestemming-disclaimer').text("")
+
+
   if(data.naam === "") {
     $('#naam-disclaimer').text("Geen naam ingevuld")
     valid = false
@@ -54,7 +63,7 @@ function validateForm(form) {
     valid = false
   }
 
-  if(data.toestemming === false) {
+  if(data.toestemming !== 'on') {
     $('#toestemming-disclaimer').text("Geen toestemming gegeven")
     valid = false
   }
