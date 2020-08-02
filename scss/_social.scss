@@ -1,8 +1,13 @@
+
 .social-icons {
   position: absolute;
   padding-bottom: 2rem;
   width: 100%;
   z-index: 2;
+  &.full-screen {
+    display: none;
+  }
+
   ul {
     margin-top: 1rem;
     width: 100%;
@@ -28,13 +33,21 @@
 @media (min-width: 1420px) {
   .social-icons {
     margin: 0;
-    position: absolute;
-    left: 2.5rem;
-    bottom: 1rem;
-    width: auto;
+    position: relative;
+    width: 100%;
+
+    &.mobile {
+      display: none;
+    }
+
+    &.full-screen {
+      display: block;
+    }
+
     ul {
       margin-top: 0;
       width: auto;
+      float: left;
       > li {
         display: inline-block;
         margin-left: 1rem;
