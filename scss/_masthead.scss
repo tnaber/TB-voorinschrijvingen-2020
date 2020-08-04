@@ -22,6 +22,12 @@
       font-size: 1.8rem;
       color: $tertiary;
     }
+
+    h3 {
+      color: $tertiary;
+      font-size: 1.4rem;
+    }
+
     p {
       font-size: 1.2rem;
       color: $tertiary
@@ -32,6 +38,8 @@
 
     .content-block {
       &.form-block {
+        overflow-x: hidden;
+
 
         h1 {
           @media (max-width: 1420px) {
@@ -42,6 +50,7 @@
 
       &.text-block {
         overflow-x: hidden;
+        display: inline-block;
 
         @media (min-width: 1420px) {
           padding: 5%;
@@ -56,6 +65,9 @@
           margin-bottom: 8px;
         }
         h1 {
+          @media (max-width: 1420px) {
+            padding-bottom: 15px;
+          }
         }
 
       }
@@ -170,6 +182,7 @@
 
 @media (min-width: 1420px) {
   .masthead {
+
     margin: 0;
     height: 100%;
     min-height: 900px;
@@ -223,6 +236,12 @@
       h1 {
         font-size: 3rem;
       }
+
+      h3 {
+        font-size: 1.5rem;
+        color: $primary;
+      }
+
       p {
         font-size: 1.3rem;
         color: $primary

@@ -104,10 +104,19 @@ body .bg-image {
   color: #4B4B4B;
 }
 
+.masthead .masthead-content h3 {
+  color: #4B4B4B;
+  font-size: 1.4rem;
+}
+
 .masthead .masthead-content p {
   font-size: 1.2rem;
   color: #4B4B4B strong;
   color-font-weight: 700;
+}
+
+.masthead .masthead-content .content-block.form-block {
+  overflow-x: hidden;
 }
 
 @media (max-width: 1420px) {
@@ -118,6 +127,7 @@ body .bg-image {
 
 .masthead .masthead-content .content-block.text-block {
   overflow-x: hidden;
+  display: inline-block;
   padding: 25% 10% 0 10%;
 }
 
@@ -135,6 +145,12 @@ body .bg-image {
 
 .masthead .masthead-content .content-block.text-block br {
   margin-bottom: 8px;
+}
+
+@media (max-width: 1420px) {
+  .masthead .masthead-content .content-block.text-block h1 {
+    padding-bottom: 15px;
+  }
 }
 
 .masthead .masthead-content .subscribed-msg {
@@ -285,6 +301,10 @@ body .bg-image {
   }
   .masthead .masthead-content h1 {
     font-size: 3rem;
+  }
+  .masthead .masthead-content h3 {
+    font-size: 1.5rem;
+    color: #efefef;
   }
   .masthead .masthead-content p {
     font-size: 1.3rem;
