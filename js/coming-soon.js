@@ -73,6 +73,12 @@ function validateForm(form) {
 
 (function($) {
   "use strict"; // Start of use strict
+   let toestemmingChecked = false
+
+
+  $('.algemene-voorwaarden-button').on('click', function(e) {
+      $('#exampleModal').modal('show')
+  })
 
   // Get data from json file
   let data = {};
@@ -114,6 +120,17 @@ function validateForm(form) {
     }
   })
 
+
+  // Add google tm only after accepting the agreement
+  $("#toestemming-checkbox").change(function() {
+    if(this.checked && !toestemmingChecked) {
+      toestemmingChecked = true;
+      $("body").append("<noscript>\n" +
+        "  <iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-MKNM8MW\"\n" +
+        "          height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\n" +
+        "</noscript>")
+    }
+  });
 
   let $form = $('#inschrijf-formulier'),
     url = 'https://script.google.com/macros/s/AKfycbzrx-tp1IULPbQTutAUjf0yRmJHw2iwuGcDsvEjxBSIj4NZ7WY/exec'

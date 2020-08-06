@@ -86,7 +86,6 @@ body .bg-image {
 
 .masthead {
   position: relative;
-  overflow-x: hidden;
   z-index: 2;
 }
 
@@ -113,6 +112,15 @@ body .bg-image {
   font-size: 1.2rem;
   color: #4B4B4B strong;
   color-font-weight: 700;
+}
+
+.masthead .masthead-content .algemene-voorwaarden-button {
+  color: #007bff;
+}
+
+.masthead .masthead-content .algemene-voorwaarden-button:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .masthead .masthead-content .content-block.form-block {
@@ -271,7 +279,7 @@ body .bg-image {
   .masthead .content-block.form-block {
     min-width: 600px;
     background-color: #efefef;
-    height: 100%;
+    height: 100vh;
     min-height: 900px;
   }
   .masthead .content-block.form-block h1 {
