@@ -71,10 +71,23 @@ function validateForm(form) {
   return valid
 }
 
+function closeCookieModal() {
+  $(".cookie-modal-container").hide()
+
+  var filterVal = 'blur(0px)';
+  $('.masthead')
+    .css('filter',filterVal)
+    .css('webkitFilter',filterVal)
+    .css('mozFilter',filterVal)
+    .css('oFilter',filterVal)
+    .css('msFilter',filterVal);
+
+}
+
+
 (function($) {
   "use strict"; // Start of use strict
    let toestemmingChecked = false
-
 
   $('.algemene-voorwaarden-button').on('click', function(e) {
       $('#exampleModal').modal('show')
@@ -121,16 +134,36 @@ function validateForm(form) {
   })
 
 
-  // Add google tm only after accepting the agreement
-  $("#toestemming-checkbox").change(function() {
-    if(this.checked && !toestemmingChecked) {
-      toestemmingChecked = true;
+  // Cookie accept or deny
+  $("#deny-cookies").on('click', function(e) {
+    closeCookieModal()
+  })
+
+  $("#accept-cookies").on('click', function(e) {
+
+      // Add Google TM scripts
+      $("head").append("  <script>(function (w, d, s, l, i) {\n" +
+        "    w[l] = w[l] || [];\n" +
+        "    w[l].push({\n" +
+        "      'gtm.start':\n" +
+        "        new Date().getTime(), event: 'gtm.js'\n" +
+        "    });\n" +
+        "    var f = d.getElementsByTagName(s)[0],\n" +
+        "      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';\n" +
+        "    j.async = true;\n" +
+        "    j.src =\n" +
+        "      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;\n" +
+        "    f.parentNode.insertBefore(j, f);\n" +
+        "  })(window, document, 'script', 'dataLayer', 'GTM-MKNM8MW');</script>")
+
       $("body").append("<noscript>\n" +
         "  <iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-MKNM8MW\"\n" +
         "          height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\n" +
         "</noscript>")
-    }
-  });
+
+      closeCookieModal()
+  })
+
 
   let $form = $('#inschrijf-formulier'),
     url = 'https://script.google.com/macros/s/AKfycbzrx-tp1IULPbQTutAUjf0yRmJHw2iwuGcDsvEjxBSIj4NZ7WY/exec'

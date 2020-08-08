@@ -6,6 +6,9 @@
 }
 
 .masthead {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+
   position: relative;
   //overflow-x: hidden;
   z-index: 2;

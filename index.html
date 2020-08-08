@@ -27,19 +27,19 @@
   <link href="css/coming-soon.min.css" rel="stylesheet">
 
   <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-    w[l] = w[l] || [];
-    w[l].push({
-      'gtm.start':
-        new Date().getTime(), event: 'gtm.js'
-    });
-    var f = d.getElementsByTagName(s)[0],
-      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-    j.async = true;
-    j.src =
-      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-    f.parentNode.insertBefore(j, f);
-  })(window, document, 'script', 'dataLayer', 'GTM-MKNM8MW');</script>
+  <!--  <script>(function (w, d, s, l, i) {-->
+  <!--    w[l] = w[l] || [];-->
+  <!--    w[l].push({-->
+  <!--      'gtm.start':-->
+  <!--        new Date().getTime(), event: 'gtm.js'-->
+  <!--    });-->
+  <!--    var f = d.getElementsByTagName(s)[0],-->
+  <!--      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';-->
+  <!--    j.async = true;-->
+  <!--    j.src =-->
+  <!--      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;-->
+  <!--    f.parentNode.insertBefore(j, f);-->
+  <!--  })(window, document, 'script', 'dataLayer', 'GTM-MKNM8MW');</script>-->
   <!-- End Google Tag Manager -->
 
 </head>
@@ -48,6 +48,33 @@
 
 <div class="bg-image"></div>
 <img src="./img/tb_logo.png" class="logo" alt=""/>
+
+<!-- Cookie warning -->
+<div class="cookie-modal-container">
+  <div class="cookie-modal">
+    <div class="decoration-block">
+
+    </div>
+    <div class="info-block">
+      <h1>Techniek Bedrijven maakt gebruik van cookies</h1>
+      <p>Welkom op onze website! Wij maken op deze website gebruik van cookies om jouw voorkeuren op te slaan, voor het
+        bijhouden van statistieken, en voor marketingdoeleinden. Hierbij wordt ook informatie met onze social media,
+        advertentie- en analytics partners gedeeld die zij kunnen combineren met andere gegevens die jij bij hen hebt
+        achtergelaten.</p>
+      <p>
+        Door op 'Accepteren & doorgaan' te klikken ga je akkoord met het gebruik van cookies op deze website. Als je op 'Afwijzen' klikt zullen er geen cookies worden gebruikt.
+      </p>
+
+      <div class="cookie-buttons">
+        <span class="deny-cookie-button" id="deny-cookies">Afwijzen</span>
+        <button class="btn btn-secondary accept-cookie-button" id="accept-cookies" type="submit">Accepteren & doorgaan
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
 <div class="masthead">
   <!--      <h1 class="mb-3">Inschrijven</h1>-->
   <div class="masthead-content">
@@ -223,7 +250,8 @@
 </div>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -233,87 +261,135 @@
         </button>
       </div>
       <div class="modal-body">
-        Stichting Techniek Bedrijven, gevestigd aan Oude Delft 57 <br />
-        2611 BC Delft, is verantwoordelijk voor de verwerking van persoonsgegevens zoals weergegeven in deze privacyverklaring.<br />
-        <br />
-        Contactgegevens:<br />
-        https://www.inschrijven.techniekbedrijven.nl<br />
-        Oude Delft 57<br />
-        2611 BC Delft<br />
-        0655322777<br />
-        Silke van der Burg is de Functionaris Gegevensbescherming van Stichting Techniek Bedrijven Hij/zij is te bereiken via s.vanderburg@techniekbedrijven.nl<br />
-        <br />
-        Persoonsgegevens die wij verwerken<br />
-        Stichting Techniek Bedrijven verwerkt uw persoonsgegevens doordat u gebruik maakt van onze diensten en/of omdat u deze zelf aan ons verstrekt.<br />
-        <br />
-        Hieronder vindt u een overzicht van de persoonsgegevens die wij verwerken:<br />
-        - Voor- en achternaam<br />
-        - Telefoonnummer<br />
-        - E-mailadres<br />
-        - Onderwijsinstelling<br />
-        - Studie<br />
-        - Type studie<br />
+        Stichting Techniek Bedrijven, gevestigd aan Oude Delft 57 <br/>
+        2611 BC Delft, is verantwoordelijk voor de verwerking van persoonsgegevens zoals weergegeven in deze
+        privacyverklaring.<br/>
+        <br/>
+        Contactgegevens:<br/>
+        https://www.inschrijven.techniekbedrijven.nl<br/>
+        Oude Delft 57<br/>
+        2611 BC Delft<br/>
+        0655322777<br/>
+        Silke van der Burg is de Functionaris Gegevensbescherming van Stichting Techniek Bedrijven Hij/zij is te
+        bereiken via s.vanderburg@techniekbedrijven.nl<br/>
+        <br/>
+        Persoonsgegevens die wij verwerken<br/>
+        Stichting Techniek Bedrijven verwerkt uw persoonsgegevens doordat u gebruik maakt van onze diensten en/of omdat
+        u deze zelf aan ons verstrekt.<br/>
+        <br/>
+        Hieronder vindt u een overzicht van de persoonsgegevens die wij verwerken:<br/>
+        - Voor- en achternaam<br/>
+        - Telefoonnummer<br/>
+        - E-mailadres<br/>
+        - Onderwijsinstelling<br/>
+        - Studie<br/>
+        - Type studie<br/>
 
-        <br />
-        <br />
-        Bijzondere en/of gevoelige persoonsgegevens die wij verwerken<br />
-        Onze website en/of dienst heeft niet de intentie gegevens te verzamelen over websitebezoekers die jonger zijn dan 16 jaar. Tenzij ze toestemming hebben van ouders of voogd. We kunnen echter niet controleren of een bezoeker ouder dan 16 is. Wij raden ouders dan ook aan betrokken te zijn bij de online activiteiten van hun kinderen, om zo te voorkomen dat er gegevens over kinderen verzameld worden zonder ouderlijke toestemming. Als u er van overtuigd bent dat wij zonder die toestemming persoonlijke gegevens hebben verzameld over een minderjarige, neem dan contact met ons op via info@techniekbedrijven.nl, dan verwijderen wij deze informatie.<br />
+        <br/>
+        <br/>
+        Bijzondere en/of gevoelige persoonsgegevens die wij verwerken<br/>
+        Onze website en/of dienst heeft niet de intentie gegevens te verzamelen over websitebezoekers die jonger zijn
+        dan 16 jaar. Tenzij ze toestemming hebben van ouders of voogd. We kunnen echter niet controleren of een bezoeker
+        ouder dan 16 is. Wij raden ouders dan ook aan betrokken te zijn bij de online activiteiten van hun kinderen, om
+        zo te voorkomen dat er gegevens over kinderen verzameld worden zonder ouderlijke toestemming. Als u er van
+        overtuigd bent dat wij zonder die toestemming persoonlijke gegevens hebben verzameld over een minderjarige, neem
+        dan contact met ons op via info@techniekbedrijven.nl, dan verwijderen wij deze informatie.<br/>
 
-        <br />
-        Met welk doel en op basis van welke grondslag wij persoonsgegevens verwerken<br />
-        Stichting Techniek Bedrijven verwerkt uw persoonsgegevens voor de volgende doelen:<br />
-        - Verzenden van onze nieuwsbrief en/of reclamefolder<br />
-        - U te kunnen bellen of e-mailen indien dit nodig is om onze dienstverlening uit te kunnen voeren<br />
-        - U de mogelijkheid te bieden een account aan te maken<br />
-        <br />
-        <br />
+        <br/>
+        Met welk doel en op basis van welke grondslag wij persoonsgegevens verwerken<br/>
+        Stichting Techniek Bedrijven verwerkt uw persoonsgegevens voor de volgende doelen:<br/>
+        - Verzenden van onze nieuwsbrief en/of reclamefolder<br/>
+        - U te kunnen bellen of e-mailen indien dit nodig is om onze dienstverlening uit te kunnen voeren<br/>
+        - U de mogelijkheid te bieden een account aan te maken<br/>
+        <br/>
+        <br/>
 
-        Hoe lang we persoonsgegevens bewaren<br />
+        Hoe lang we persoonsgegevens bewaren<br/>
 
-        Stichting Techniek Bedrijven bewaart uw persoonsgegevens niet langer dan strikt nodig is om de doelen te realiseren waarvoor uw gegevens worden verzameld. Wij hanteren de volgende bewaartermijnen voor de volgende (categorieën) van persoonsgegevens:<br />
-        <br />
-        Voor- en achternaam > 4 maanden > Verzenden van onze nieuwsbrief en/of reclamefolder. U te kunnen bellen of e-mailen indien dit nodig is om onze dienstverlening uit te kunnen voeren. U de mogelijkheid te bieden een account aan te maken<br />
-        Telefoonnummer > 4 maanden > Verzenden van onze nieuwsbrief en/of reclamefolder. U te kunnen bellen of e-mailen indien dit nodig is om onze dienstverlening uit te kunnen voeren. U de mogelijkheid te bieden een account aan te maken<br />
-        E-mailadres> 4 maanden > Verzenden van onze nieuwsbrief en/of reclamefolder. U te kunnen bellen of e-mailen indien dit nodig is om onze dienstverlening uit te kunnen voeren. U de mogelijkheid te bieden een account aan te maken<br />
-        Onderwijsinstelling > 4 maanden > Verzenden van onze nieuwsbrief en/of reclamefolder. U te kunnen bellen of e-mailen indien dit nodig is om onze dienstverlening uit te kunnen voeren. U de mogelijkheid te bieden een account aan te maken<br />
-        Studie > 4 maanden > Verzenden van onze nieuwsbrief en/of reclamefolder. U te kunnen bellen of e-mailen indien dit nodig is om onze dienstverlening uit te kunnen voeren. U de mogelijkheid te bieden een account aan te maken<br />
-        Type studie > 4 maanden > Verzenden van onze nieuwsbrief en/of reclamefolder. U te kunnen bellen of e-mailen indien dit nodig is om onze dienstverlening uit te kunnen voeren. U de mogelijkheid te bieden een account aan te maken<br />
+        Stichting Techniek Bedrijven bewaart uw persoonsgegevens niet langer dan strikt nodig is om de doelen te
+        realiseren waarvoor uw gegevens worden verzameld. Wij hanteren de volgende bewaartermijnen voor de volgende
+        (categorieën) van persoonsgegevens:<br/>
+        <br/>
+        Voor- en achternaam > 4 maanden > Verzenden van onze nieuwsbrief en/of reclamefolder. U te kunnen bellen of
+        e-mailen indien dit nodig is om onze dienstverlening uit te kunnen voeren. U de mogelijkheid te bieden een
+        account aan te maken<br/>
+        Telefoonnummer > 4 maanden > Verzenden van onze nieuwsbrief en/of reclamefolder. U te kunnen bellen of e-mailen
+        indien dit nodig is om onze dienstverlening uit te kunnen voeren. U de mogelijkheid te bieden een account aan te
+        maken<br/>
+        E-mailadres> 4 maanden > Verzenden van onze nieuwsbrief en/of reclamefolder. U te kunnen bellen of e-mailen
+        indien dit nodig is om onze dienstverlening uit te kunnen voeren. U de mogelijkheid te bieden een account aan te
+        maken<br/>
+        Onderwijsinstelling > 4 maanden > Verzenden van onze nieuwsbrief en/of reclamefolder. U te kunnen bellen of
+        e-mailen indien dit nodig is om onze dienstverlening uit te kunnen voeren. U de mogelijkheid te bieden een
+        account aan te maken<br/>
+        Studie > 4 maanden > Verzenden van onze nieuwsbrief en/of reclamefolder. U te kunnen bellen of e-mailen indien
+        dit nodig is om onze dienstverlening uit te kunnen voeren. U de mogelijkheid te bieden een account aan te
+        maken<br/>
+        Type studie > 4 maanden > Verzenden van onze nieuwsbrief en/of reclamefolder. U te kunnen bellen of e-mailen
+        indien dit nodig is om onze dienstverlening uit te kunnen voeren. U de mogelijkheid te bieden een account aan te
+        maken<br/>
 
 
-        Cookies, of vergelijkbare technieken, die wij gebruiken<br />
-        Stichting Techniek Bedrijven gebruikt functionele, analytische en tracking cookies. Een cookie is een klein tekstbestand dat bij het eerste bezoek aan deze website wordt opgeslagen in de browser van uw computer, tablet of smartphone. Stichting Techniek Bedrijven gebruikt cookies met een puur technische functionaliteit. Deze zorgen ervoor dat de website naar behoren werkt en dat bijvoorbeeld uw voorkeursinstellingen onthouden worden. Deze cookies worden ook gebruikt om de website goed te laten werken en deze te kunnen optimaliseren. Daarnaast plaatsen we cookies die uw surfgedrag bijhouden zodat we op maat gemaakte content en advertenties kunnen aanbieden.<br />
-        <br />
-        Bij uw eerste bezoek aan onze website hebben wij u al geïnformeerd over deze cookies en toestemming gevraagd voor het plaatsen ervan.<br />
-        <br />
-        U kunt zich afmelden voor cookies door uw internetbrowser zo in te stellen dat deze geen cookies meer opslaat. Daarnaast kunt u ook alle informatie die eerder is opgeslagen via de instellingen van uw browser verwijderen.<br />
-        <br />
-        Zie voor een toelichting: https://veiliginternetten.nl/themes/situatie/cookies-wat-zijn-het-en-wat-doe-ik-ermee/<br />
-        Op deze website worden ook cookies geplaatst door derden. Dit zijn bijvoorbeeld adverteerders en/of de sociale media-bedrijven. Hieronder een overzicht:<br />
-        <br />
-        <br />
-        Cookie: Google Analytics pixel<br />
-        Naam: pixel_1<br />
-        Functie: Analytische tracking en retargeting pixel om contactpunten te tracken<br />
-        Bewaartermijn: 2 jaar<br />
-        <br />
-        Cookie: Facebook pixel<br />
-        Naam: pixel_2<br />
-        Functie: Analytische tracking en retargeting pixel om contactpunten te tracken<br />
-        Bewaartermijn: 2 jaar<br />
-        <br />
-        <br />
-        Gegevens inzien, aanpassen of verwijderen<br />
-        U heeft het recht om uw persoonsgegevens in te zien, te corrigeren of te verwijderen. Dit kunt u zelf doen via de persoonlijke instellingen van uw account. Daarnaast heeft u het recht om uw eventuele toestemming voor de gegevensverwerking in te trekken of bezwaar te maken tegen de verwerking van uw persoonsgegevens door ons bedrijf en heeft u het recht op gegevensoverdraagbaarheid. Dat betekent dat u bij ons een verzoek kunt indienen om de persoonsgegevens die wij van u beschikken in een computerbestand naar u of een ander, door u genoemde organisatie, te sturen.<br />
-        <br />
-        Wilt u gebruik maken van uw recht op bezwaar en/of recht op gegevensoverdraagbaarheid of heeft u andere vragen/opmerkingen over de gegevensverwerking, stuur dan een gespecificeerd verzoek naar info@techniekbedrijven.nl.<br />
-        <br />
-        Om er zeker van te zijn dat het verzoek tot inzage door u is gedaan, vragen wij u een kopie van uw identiteitsbewijs bij het verzoek mee te sturen. Maak in deze kopie uw pasfoto, MRZ (machine readable zone, de strook met nummers onderaan het paspoort), paspoortnummer en Burgerservicenummer (BSN) zwart. Dit ter bescherming van uw privacy. Stichting Techniek Bedrijven zal zo snel mogelijk, maar in ieder geval binnen vier weken, op uw verzoek reageren.<br />
-        <br />
-        Stichting Techniek Bedrijven wil u er tevens op wijzen dat u de mogelijkheid hebt om een klacht in te dienen bij de nationale toezichthouder, de Autoriteit Persoonsgegevens. Dat kan via de volgende link: https://autoriteitpersoonsgegevens.nl/nl/contact-met-de-autoriteit-persoonsgegevens/tip-ons<br />
-        <br />
-        <br />
-        Hoe wij persoonsgegevens beveiligen<br />
-        Stichting Techniek Bedrijven neemt de bescherming van uw gegevens serieus en neemt passende maatregelen om misbruik, verlies, onbevoegde toegang, ongewenste openbaarmaking en ongeoorloofde wijziging tegen te gaan. Als u de indruk heeft dat uw gegevens niet goed beveiligd zijn of er aanwijzingen zijn van misbruik, neem dan contact op met onze klantenservice of via info@techniekbedrijven.nl
+        Cookies, of vergelijkbare technieken, die wij gebruiken<br/>
+        Stichting Techniek Bedrijven gebruikt functionele, analytische en tracking cookies. Een cookie is een klein
+        tekstbestand dat bij het eerste bezoek aan deze website wordt opgeslagen in de browser van uw computer, tablet
+        of smartphone. Stichting Techniek Bedrijven gebruikt cookies met een puur technische functionaliteit. Deze
+        zorgen ervoor dat de website naar behoren werkt en dat bijvoorbeeld uw voorkeursinstellingen onthouden worden.
+        Deze cookies worden ook gebruikt om de website goed te laten werken en deze te kunnen optimaliseren. Daarnaast
+        plaatsen we cookies die uw surfgedrag bijhouden zodat we op maat gemaakte content en advertenties kunnen
+        aanbieden.<br/>
+        <br/>
+        Bij uw eerste bezoek aan onze website hebben wij u al geïnformeerd over deze cookies en toestemming gevraagd
+        voor het plaatsen ervan.<br/>
+        <br/>
+        U kunt zich afmelden voor cookies door uw internetbrowser zo in te stellen dat deze geen cookies meer opslaat.
+        Daarnaast kunt u ook alle informatie die eerder is opgeslagen via de instellingen van uw browser
+        verwijderen.<br/>
+        <br/>
+        Zie voor een toelichting: https://veiliginternetten.nl/themes/situatie/cookies-wat-zijn-het-en-wat-doe-ik-ermee/<br/>
+        Op deze website worden ook cookies geplaatst door derden. Dit zijn bijvoorbeeld adverteerders en/of de sociale
+        media-bedrijven. Hieronder een overzicht:<br/>
+        <br/>
+        <br/>
+        Cookie: Google Analytics pixel<br/>
+        Naam: pixel_1<br/>
+        Functie: Analytische tracking en retargeting pixel om contactpunten te tracken<br/>
+        Bewaartermijn: 2 jaar<br/>
+        <br/>
+        Cookie: Facebook pixel<br/>
+        Naam: pixel_2<br/>
+        Functie: Analytische tracking en retargeting pixel om contactpunten te tracken<br/>
+        Bewaartermijn: 2 jaar<br/>
+        <br/>
+        <br/>
+        Gegevens inzien, aanpassen of verwijderen<br/>
+        U heeft het recht om uw persoonsgegevens in te zien, te corrigeren of te verwijderen. Dit kunt u zelf doen via
+        de persoonlijke instellingen van uw account. Daarnaast heeft u het recht om uw eventuele toestemming voor de
+        gegevensverwerking in te trekken of bezwaar te maken tegen de verwerking van uw persoonsgegevens door ons
+        bedrijf en heeft u het recht op gegevensoverdraagbaarheid. Dat betekent dat u bij ons een verzoek kunt indienen
+        om de persoonsgegevens die wij van u beschikken in een computerbestand naar u of een ander, door u genoemde
+        organisatie, te sturen.<br/>
+        <br/>
+        Wilt u gebruik maken van uw recht op bezwaar en/of recht op gegevensoverdraagbaarheid of heeft u andere
+        vragen/opmerkingen over de gegevensverwerking, stuur dan een gespecificeerd verzoek naar
+        info@techniekbedrijven.nl.<br/>
+        <br/>
+        Om er zeker van te zijn dat het verzoek tot inzage door u is gedaan, vragen wij u een kopie van uw
+        identiteitsbewijs bij het verzoek mee te sturen. Maak in deze kopie uw pasfoto, MRZ (machine readable zone, de
+        strook met nummers onderaan het paspoort), paspoortnummer en Burgerservicenummer (BSN) zwart. Dit ter
+        bescherming van uw privacy. Stichting Techniek Bedrijven zal zo snel mogelijk, maar in ieder geval binnen vier
+        weken, op uw verzoek reageren.<br/>
+        <br/>
+        Stichting Techniek Bedrijven wil u er tevens op wijzen dat u de mogelijkheid hebt om een klacht in te dienen bij
+        de nationale toezichthouder, de Autoriteit Persoonsgegevens. Dat kan via de volgende link:
+        https://autoriteitpersoonsgegevens.nl/nl/contact-met-de-autoriteit-persoonsgegevens/tip-ons<br/>
+        <br/>
+        <br/>
+        Hoe wij persoonsgegevens beveiligen<br/>
+        Stichting Techniek Bedrijven neemt de bescherming van uw gegevens serieus en neemt passende maatregelen om
+        misbruik, verlies, onbevoegde toegang, ongewenste openbaarmaking en ongeoorloofde wijziging tegen te gaan. Als u
+        de indruk heeft dat uw gegevens niet goed beveiligd zijn of er aanwijzingen zijn van misbruik, neem dan contact
+        op met onze klantenservice of via info@techniekbedrijven.nl
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
