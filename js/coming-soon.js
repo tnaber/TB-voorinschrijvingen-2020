@@ -84,6 +84,28 @@ function closeCookieModal() {
 
 }
 
+function loadGTM() {
+  // Add Google TM scripts
+  $("head").append("  <script>(function (w, d, s, l, i) {\n" +
+    "    w[l] = w[l] || [];\n" +
+    "    w[l].push({\n" +
+    "      'gtm.start':\n" +
+    "        new Date().getTime(), event: 'gtm.js'\n" +
+    "    });\n" +
+    "    var f = d.getElementsByTagName(s)[0],\n" +
+    "      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';\n" +
+    "    j.async = true;\n" +
+    "    j.src =\n" +
+    "      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;\n" +
+    "    f.parentNode.insertBefore(j, f);\n" +
+    "  })(window, document, 'script', 'dataLayer', 'GTM-MKNM8MW');</script>")
+
+  $("body").append("<noscript>\n" +
+    "  <iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-MKNM8MW\"\n" +
+    "          height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\n" +
+    "</noscript>")
+}
+
 
 (function($) {
   "use strict"; // Start of use strict
@@ -134,33 +156,25 @@ function closeCookieModal() {
   })
 
 
+  // Get name cookie value
+
+  let cookieValue = document.cookie.replace(/(?:(?:^|.*;\s*)status\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+
+  if (cookieValue === "accepted") {
+    loadGTM()
+    closeCookieModal()
+  }
+
   // Cookie accept or deny
   $("#deny-cookies").on('click', function(e) {
     closeCookieModal()
   })
 
   $("#accept-cookies").on('click', function(e) {
+      // Cookies.set("tb-cookies", "accepted")
+      document.cookie = "status=accepted; max-age=" + 30*24*60*60;
 
-      // Add Google TM scripts
-      $("head").append("  <script>(function (w, d, s, l, i) {\n" +
-        "    w[l] = w[l] || [];\n" +
-        "    w[l].push({\n" +
-        "      'gtm.start':\n" +
-        "        new Date().getTime(), event: 'gtm.js'\n" +
-        "    });\n" +
-        "    var f = d.getElementsByTagName(s)[0],\n" +
-        "      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';\n" +
-        "    j.async = true;\n" +
-        "    j.src =\n" +
-        "      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;\n" +
-        "    f.parentNode.insertBefore(j, f);\n" +
-        "  })(window, document, 'script', 'dataLayer', 'GTM-MKNM8MW');</script>")
-
-      $("body").append("<noscript>\n" +
-        "  <iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-MKNM8MW\"\n" +
-        "          height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\n" +
-        "</noscript>")
-
+      loadGTM()
       closeCookieModal()
   })
 
