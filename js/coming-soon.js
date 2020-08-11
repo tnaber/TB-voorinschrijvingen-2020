@@ -163,10 +163,11 @@ function loadGTM() {
   if (cookieValue === "accepted") {
     loadGTM()
     closeCookieModal()
-  }
+  } else if (cookieValue === "denied")
 
   // Cookie accept or deny
   $("#deny-cookies").on('click', function(e) {
+    document.cookie = "status=denied; max-age=" + 7*24*60*60;
     closeCookieModal()
   })
 
