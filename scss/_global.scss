@@ -7,8 +7,7 @@ html {
 }
 
 body {
-  height: 100%;
-  min-height: 35rem;
+  min-height: 100%;
   position: relative;
   @include body-font;
 }
@@ -99,12 +98,12 @@ body {
         }
       }
 
-      @media (min-width: 1420px) {
+      @media (min-width: 1300px) {
         width: 50vw;
         padding: 5vh;
       }
 
-      @media (max-width: 1420px) {
+      @media (max-width: 1300px) {
         width: 80%;
         padding: 5%;
       }
@@ -113,9 +112,7 @@ body {
 
   }
 
-
-  overflow-x: hidden;
-  @media (min-width: 1420px) {
+  @media (min-width: 1300px) {
     overflow: hidden;
 
     .bg-image {
