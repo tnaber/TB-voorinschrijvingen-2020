@@ -163,7 +163,10 @@ function loadGTM() {
   if (cookieValue === "accepted") {
     loadGTM()
     closeCookieModal()
-  } else if (cookieValue === "denied")
+  } else if (cookieValue === "denied") {
+    closeCookieModal()
+  }
+
 
   // Cookie accept or deny
   $("#deny-cookies").on('click', function(e) {
